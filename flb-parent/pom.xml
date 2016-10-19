@@ -10,9 +10,9 @@
 <properties>
 
 	<!-- for distribution management -->
-	<flb.snapshots.distribution.repository>dav:http://code1.mysteeltech.com/mvn/content/repositories/snapshots</flb.snapshots.distribution.repository>
-	<flb.releases.distribution.repository>dav:http://code1.mysteeltech.com/mvn/content/repositories/releases</flb.releases.distribution.repository>
-	<flb.sites.distribution.repository>dav:http://code1.mysteeltech.com/mvn/content/sites/sites</flb.sites.distribution.repository>
+	<flb.snapshots.distribution.repository>dav:http://maven.aliyun.com/nexus/content/groups/public/</flb.snapshots.distribution.repository>
+	<flb.releases.distribution.repository>dav:http://maven.aliyun.com/nexus/content/groups/public/</flb.releases.distribution.repository>
+	<flb.sites.distribution.repository>dav:http://maven.aliyun.com/nexus/content/groups/public/</flb.sites.distribution.repository>
 
 	<!-- for maven compiler plugin -->
 	<maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
@@ -117,14 +117,14 @@
 	<repository>
 		<id>flb.repo</id>
 		<layout>default</layout>
-		<url>http://code1.mysteeltech.com/mvn/content/groups/shgl</url>
+		<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
 		<snapshots>
 			<enabled>false</enabled>
 		</snapshots>
 	</repository>
 	<repository>
 		<id>flb.snapshots</id>
-		<url>http://code1.mysteeltech.com/mvn/content/repositories/snapshots</url>
+		<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
 		<releases>
 			<enabled>false</enabled>
 		</releases>
@@ -134,7 +134,7 @@
 	</repository>
 	<repository>
 		<id>flb.releases</id>
-		<url>http://code1.mysteeltech.com/mvn/content/repositories/releases</url>
+		<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
 		<releases>
 			<enabled>true</enabled>
 		</releases>
@@ -148,7 +148,7 @@
 	<pluginRepository>
 		<id>flb.repo.plugin</id>
 		<layout>default</layout>
-		<url>http://code1.mysteeltech.com/mvn/content/groups/shgl</url>
+		<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
 		<snapshots>
 			<enabled>false</enabled>
 		</snapshots>
@@ -725,11 +725,11 @@
 </build>
 
 <!-- SCM(Source Control Management)标签允许你配置你的代码库，供Maven web站点和其它插件使用。 --> 
-<scm>
-	<!-- 指向项目的可浏览SCM库（例如ViewVC或者Fisheye）的URL。 -->
+<!-- <scm>
+	指向项目的可浏览SCM库（例如ViewVC或者Fisheye）的URL。
 	<url>svn://192.168.1.106/flb-parent/trunk</url>
-	<!-- SCM的URL,该URL描述了版本库和如何连接到版本库。欲知详情，请看SCMs提供的URL格式和列表。该连接只读。 --> 
+	SCM的URL,该URL描述了版本库和如何连接到版本库。欲知详情，请看SCMs提供的URL格式和列表。该连接只读。 
 	<connection>scm:svn:svn://192.168.1.106/flb-parent/trunk</connection>
-</scm>
+</scm> -->
 
 </project>
