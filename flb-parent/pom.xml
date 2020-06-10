@@ -75,7 +75,7 @@
 	<memcached.version>2.6.6</memcached.version>
 	<jackson.version>2.3.0</jackson.version>
 
-	<beanutils.version>1.8.0</beanutils.version>
+	<beanutils.version>1.9.2</beanutils.version>
 	<collections.version>3.2</collections.version>
 	<codec.version>1.8</codec.version>
 
