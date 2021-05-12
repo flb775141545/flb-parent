@@ -61,7 +61,7 @@
 	<hessian.version>4.0.7</hessian.version>
 	<xhtmlrenderer.version>R8pre2</xhtmlrenderer.version>
 	<itext.version>2.0.8</itext.version>
-	<solr.version>4.0.0</solr.version>
+	<solr.version>8.8.2</solr.version>
 	<cxf.version>2.6.0</cxf.version>
 	<wsdl4j.version>1.6.1</wsdl4j.version>
 	<xmlschema.version>2.0.2</xmlschema.version>
