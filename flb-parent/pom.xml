@@ -83,7 +83,7 @@
 	<slf4j.version>1.6.1</slf4j.version>
 	<jcl.version>1.1</jcl.version>
 	<log4j.version>1.2.16</log4j.version>
-	<logback.version>1.0.6</logback.version>
+	<logback.version>1.2.0</logback.version>
 
 	<!-- Test libs -->
 	<junit.version>4.10</junit.version>
