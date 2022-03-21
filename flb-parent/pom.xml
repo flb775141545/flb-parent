@@ -51,7 +51,7 @@
 	<httpclient.version>3.1</httpclient.version>
 	<io.version>2.4</io.version>
 	<lang.version>2.6</lang.version>
-	<dubbo.version>2.5.3</dubbo.version>
+	<dubbo.version>2.6.9</dubbo.version>
 	<zkclient.version>0.4</zkclient.version>
 	<cglib.version>2.2</cglib.version>
 	<servlet.version>2.5</servlet.version>
